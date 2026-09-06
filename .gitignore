@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Databases & data outputs (generated)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Environment & local secrets
+.env
+.env.*
+!.env.example
+
+# IDE & OS files
+.DS_Store
+.vscode/
+.idea/

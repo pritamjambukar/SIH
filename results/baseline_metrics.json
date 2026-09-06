@@ -1,0 +1,19 @@
+{
+  "model_type": "Linear / Logistic Regression Baseline",
+  "cutoff_date": "2021-06-01",
+  "cost_overrun_regression": {
+    "rmse": 0.0942,
+    "mae": 0.0703
+  },
+  "cost_overrun_classification": {
+    "roc_auc": 0.844,
+    "accuracy": 0.8169,
+    "f1_score": 0.7152
+  },
+  "time_overrun_classification": {
+    "roc_auc": 0.8722,
+    "accuracy": 0.772,
+    "f1_score": 0.8178
+  },
+  "expenditure_trajectory_mape": 25.61
+}
